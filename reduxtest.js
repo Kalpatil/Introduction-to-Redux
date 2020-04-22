@@ -1,7 +1,7 @@
 const { createStore } = require('redux');
 
 const newState = {
-    age : 23
+    age : 25
 };
 
 
