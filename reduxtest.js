@@ -1,12 +1,12 @@
 const { createStore } = require('redux');
 
 const newState = {
-    age : 21
+    age : 22
 };
 
 
 const myReducer = ( state = newState, action ) => {
-    
+
     const newState = {...state};
     if( action.type === 'ADD' ) {
         newState.age += action.val;
